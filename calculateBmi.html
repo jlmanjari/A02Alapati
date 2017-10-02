@@ -1,0 +1,107 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+     
+        <title>Manjari</title>
+     
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>        
+        <script type="text/javascript" src="js/main.js"> </script>
+       
+    </head>
+    <body>
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Manjari's Application</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="calculateBmi.html">Calculate BMI</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div style="background-image: url('pic6.jpg')" class="main-container">          
+            <div class="main wrapper clearfix">                
+
+                <article> 
+                    <header>
+                            <table><tr>
+                                    <td><img src="pic1.jpg" alt="profile picture" class="img-circle" height="120" width="100"/> </td>
+                                    <td></td>
+                                <td>&nbsp;</td>
+                           <td> <h1  id="aboutme"> Calculate BMI</h1>     </td></tr></table>                
+                    </header>
+                    <section>
+                        <br><br>
+                        <aside style="float:left;width:540px;height:250px;padding-top:20px"> 
+                            <form id="BMI">
+                                
+                                <table style="width:550px;border:0;" >
+                                <tr> 
+                                    <td>
+                                <label>Height (in Meter)*:</label>
+                                </td> 
+                                <td>
+                                <input type="text" name="height" maxlength="60" style="width:250px;" />
+                                </td> 
+                            </tr>  
+                                <tr> 
+                                    <td>
+                                <label>Weight (in Kg)*:</label>
+                                </td>
+                                 <td>
+                                <input type="text" name="weight" maxlength="90" style="width:250px;" />
+                                </td>
+                             </tr> 
+                                <tr> 
+                                    <td>
+                                <label>Your BMI:</label>
+                                </td>
+                                 <td>
+                                    <input type="text" id="result" maxlength="90" style="width:250px;" />
+                                </td>
+                             </tr>   
+                                <tr>
+                                     <td>
+                                   &nbsp;
+                                    </td> 
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                 </tr>                              
+                                <tr>
+                                     <td>
+                                * - required fields
+                                </td>                                
+                                <td>
+                                <input id="calculate_bmi" type="submit" value="Calculate" />
+                                </td> 
+                            </tr>
+                                <tr>
+                                    <td><label id="message"></label>
+                                    </td>
+                                </tr>
+                                </table>
+                                </form>
+                        </aside>
+                        </section>
+                        <footer>                        
+                            <p></p>
+                        </footer>
+                    </article>
+                </div> <!-- #main -->
+            </div> <!-- #main-container -->
+
+<div class="footer-container">
+        <footer class="wrapper" id="mainfooter"> 
+            &copy; Copyright 2017. All rights reserved. S530719@nwmissouri.edu
+        </footer>
+    </div>
+   
